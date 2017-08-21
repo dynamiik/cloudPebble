@@ -1,0 +1,83 @@
+{
+    "author": "schuetzeberg.mike@live.de",
+    "dependencies": {},
+    "keywords": [],
+    "name": "firsttry",
+    "pebble": {
+        "displayName": "FirstTry",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "NAME"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/quietOff.png",
+                    "name": "QUIET_OFF",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/quietOn.png",
+                    "name": "QUIET_ON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BT_On.png",
+                    "name": "BT_ON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BT_off.png",
+                    "name": "BT_OFF",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437 Win.ttf",
+                    "name": "FONT_PERFECT_DOS_42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437 Win.ttf",
+                    "name": "FONT_PERFECT_DOS_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437 Win.ttf",
+                    "name": "FONT_PERFECT_DOS_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437 Win.ttf",
+                    "name": "FONT_PERFECT_DOS_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "270a23bd-0537-457f-9892-1d740b5b70ae",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
